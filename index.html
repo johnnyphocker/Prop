@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/logo.png" type="image/x-icon"/>
+  <title>México.com</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+  <div id="loader"></div>
+
+  <div id="myDiv" style="display:none;" class="animated fadeIn">
+
+    <header>
+
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand logo" href="#">
+          <img src="img/logo.svg" alt="Logo México.com">
+          <span>MEXICO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Posts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Elecciones 2018</a>
+                <a class="dropdown-item" href="#">Mundial Rusia 2018</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid"></div>
+
+
+
+    </header>
+
+    <section id="contenido">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-2 social">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+              <li><a id="heart" href="#"><i id="iHeart" class="fas fa-heart fa-2x"></i></a></li>
+              <li class="counter" id="counter">2356</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-7">
+            <h1>Si hoy fueran las elecciones ¿Por quién votarías?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nemo illo voluptatibus ipsum, sequi necessitatibus ipsa vero ab, porro commodi, debitis aperiam harum repudiandae esse, provident! Sint, laboriosam maiores aut.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aliquam ad vitae modi quae rerum sapiente saepe pariatur distinctio illum, animi, est ullam natus consequatur blanditiis veritatis delectus, autem magni. Perferendis expedita, facilis sed quo minima tenetur ullam natus et quas assumenda cupiditate, vel delectus fugiat modi voluptates incidunt. Consequuntur provident error optio sunt inventore at, veritatis doloremque aut voluptatum iure, ab eveniet deserunt natus?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad unde perferendis beatae deleniti iste similique nesciunt, quam alias odio consequuntur, impedit vitae explicabo reprehenderit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse natus, consequatur, facilis asperiores recusandae ratione dolorum, dolores deserunt, nesciunt optio? Ipsum nemo nisi ea ab illo accusantium ipsam impedit nihil. Amet corporis earum in magni quasi nesciunt perferendis et.</p>
+
+            <div class="alert alert-success" role="alert" style="color: black">
+
+                <h2>¿Quién es tu gallo?</h2>
+                <p>Selecciona a tu candidato dándole un clic a la imagen del mismo. Recuerda que tu voto es libre y secreto.</p>
+                <div class="row">
+
+                  <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="choice">
+                      <a href="#" id="amlo">
+                        <img src="https://cdn-images-1.medium.com/max/1600/1*JHX-kjl2ev_Q-eZNsBGUOQ.jpeg" alt="AMLO">
+                      </a>
+                    </div>
+                    <p id="amloCounter">52</p>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="choice">
+                      <a href="#" id="anaya">
+                        <img src="https://cdn.proceso.com.mx/media/2018/03/0ab39b50c349306386-180307-anaya-em-1-c-1078x801.jpg" alt="Anaya">
+                      </a>
+                    </div>
+                    <p id="anayaCounter">24</p>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="choice">
+                      <a href="#" id="meade">
+                        <img src="https://www.eleconomista.com.mx/__export/1512260003802/sites/eleconomista/img/2017/11/27/meade.jpg_1348255499.jpg" alt="Meade">
+                      </a>
+                    </div>
+                    <p id="meadeCounter">17</p>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <div class="choice">
+                      <a href="#" id="bronco">
+                        <img src="https://cdn.proceso.com.mx/media/2017/05/7b75d1d80c2577c190-170110_mty_bronco_vhv_02-c-702x468.jpg" alt="Bronco">
+                      </a>
+                    </div>
+                    <p id="broncoCounter">3</p>
+                  </div>
+
+                  <!-- <button class="btn btn-danger btn-block" id="statisticsBtn">Ver estadísticas</button> -->
+
+                  <!-- <canvas id="myChart" class="none animated fadeIn" id="statistics"></canvas> -->
+
+
+
+
+                </div>
+            </div>
+
+          </div>
+
+          <div class="col-xs-12 col-md-3">
+            <img src="img/ad.jpg" alt="" class="ad">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <footer></footer>
+
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+  <script src="js/sweetalert.js"></script>
+  <script src="js/chart.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

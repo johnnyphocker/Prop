@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/logo.png" type="image/x-icon"/>
+  <title>México.com</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- <link rel="stylesheet" href="css/jquery-ui.css"> -->
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+  <div id="loader"></div>
+
+  <div id="myDiv" style="display:none;" class="animated fadeIn">
+
+    <header>
+
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand logo" href="index.html">
+          <img src="img/logo.svg" alt="Logo México.com">
+          <span>MEXICO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Elecciones 2018</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="prop2.html">Mundial Rusia 2018</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Posts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Elecciones 2018</a>
+                <a class="dropdown-item" href="#">Mundial Rusia 2018</a>
+              </div>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Busca tu noticia" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid rusia"></div>
+
+
+
+    </header>
+
+    <section id="contenido">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xs-12 col-md-2 social">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+              <li><a id="heart" href="#"><i id="iHeart" class="fas fa-heart fa-2x"></i></a></li>
+              <li class="counter" id="counter">2356</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-7">
+            <h1>El mundial 2018 a detalle</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nemo illo voluptatibus ipsum, sequi necessitatibus ipsa vero ab, porro commodi, debitis aperiam harum repudiandae esse, provident! Sint, laboriosam maiores aut.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aliquam ad vitae modi quae rerum sapiente saepe pariatur distinctio illum, animi, est ullam natus consequatur blanditiis veritatis delectus, autem magni. Perferendis expedita, facilis sed quo minima tenetur ullam natus et quas assumenda cupiditate, vel delectus fugiat modi voluptates incidunt. Consequuntur provident error optio sunt inventore at, veritatis doloremque aut voluptatum iure, ab eveniet deserunt natus?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad unde perferendis beatae deleniti iste similique nesciunt, quam alias odio consequuntur, impedit vitae explicabo reprehenderit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse natus, consequatur, facilis asperiores recusandae ratione dolorum, dolores deserunt, nesciunt optio? Ipsum nemo nisi ea ab illo accusantium ipsam impedit nihil. Amet corporis earum in magni quasi nesciunt perferendis et.</p>
+
+            <div class="alert alert-success futbol" role="alert" >
+
+                <h2>Ayuda a osorio</h2>
+                <p>Coloca a cada jugador en la posición que mejor le convenga al equipo y envíanos tu propuesta</p>
+
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag1" src="img/chicharito.png">
+                <p>Chicharito</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag2" src="img/lozano.png">
+                <p>Lozano</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag3" src="img/vela.png">
+                <p>Vela</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag4" src="img/guardado.png">
+                <p>Guardado</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag5" src="img/reyes.png">
+                <p>Reyes</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag6" src="img/herrera.png">
+                <p>Herrera</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag7" src="img/layun.png">
+                <p>Layún</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag8" src="img/moreno.png">
+                <p>Moreno</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag9" src="img/araujo.png">
+                <p>Araujo</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag10" src="img/salcedo.png">
+                <p>Salcedo</p>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <img id="drag11" src="img/ochoa.png">
+                <p>Ochoa</p>
+              </div>
+            </div>
+
+            <button class="btn btn-danger btn-block" onclick="enviar()">Enviar</button>
+            <br><br><br>
+
+          </div>
+
+          <div class="col-xs-12 col-md-3">
+            <img src="img/ad.jpg" alt="" class="ad">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <footer></footer>
+
+  </div>
+
+
+
+
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <!-- <script src="js/jquery-ui.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+  <script src="js/sweetalert.js"></script>
+  <!-- <script src="js/chart.js"></script> -->
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

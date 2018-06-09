@@ -1,0 +1,210 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+header nav {
+  background: black !important;
+}
+
+header nav .logo img {
+  width: 25%;
+}
+
+.jumbotron {
+  background: url(http://www.eluniversal.com.mx/sites/default/files/styles/f02-1023x441/public/2018/05/18/imagen_especial.png?itok=v7hkTExP);
+  height: 300px;
+}
+
+.rusia {
+  background: url('../img/wc-russia-2018.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social ul li {
+  margin-top: 25px;
+}
+
+.fa-facebook-square {
+  color: #8b9dc3;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #00aced;
+}
+
+.fa-twitter-square:hover {
+  color: #0084b4;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.fa-heart {
+  color: #ccc;
+}
+
+.counter {
+  background-color: #ddd;
+  text-align: center;
+  width: 80px;
+  border-radius: 4px;
+  padding: 3px 0;
+  color: #555;
+}
+
+.futbol {
+  background: url('../img/cancha.jpg');
+  background-size: cover;
+  height: 715px;
+  background-position: center center;
+}
+
+.futbol p {
+  color: white;
+}
+
+.choice {
+  height: 80px;
+  overflow: hidden;
+}
+
+.choice img {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.choice + p {
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none !important;
+}
+
+.statisticsBtn {
+  margin: 25px 15px;
+}
+
+.ad {
+  width: 100%;
+}
+
+.progress-container {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+.alert {
+  text-align: center;
+}
+
+.alert h2 {
+  font-weight: bold;
+  color: black;
+}
+
+canvas {
+  margin: 25px auto;
+  width: 200px;
+}
+
+footer {
+  background: url('../img/footer.jpg');
+  height: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+@media only screen and (max-width: 767px) {
+  .ad {
+    display: none;
+  }
+  .social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
